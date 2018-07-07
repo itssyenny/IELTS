@@ -1,18 +1,11 @@
 # jQuery Sakura
 
-Make it rain - sakura petals or anything else for that matter.
+I use a rain - sakura petals effects on IELTS website.
 
 Uses CSS3 animations and requestAnimationFrame to put a plethora of cherry blossom petals that drift and sway in the "wind" on your site.
 
 ![Sakura Animation](http://i.imgur.com/Ns7PWi3.gif "Sakura Animation")
 
-## Installation
-
-Download and add the files to your asset folder, be sure to use the right paths when including the files in your site.
-
-## Basic Usage
-
-Simply include both the css and js file in your HTML and run the sakura() function added by this plugin on domReady or windowLoad:
 
 ```html
 <!-- In your HTML head -->
