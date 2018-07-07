@@ -15,8 +15,21 @@
 	<link href="IELTS.css" rel="stylesheet">
 
 
-<link href="jquery-sakura.css" rel="stylesheet" type="text/css">
+	<link href="jquery-sakura.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+	<link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+	<link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+	<link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
 <style>
+
+	@media (min-width: 500px) and (max-width: 600px) {
+
+	    .desc:after {
+	      content:" Oh man!";
+	    }
+	  }
+
+    body {
     body {
         position: relative; 
        /* background: linear-gradient(to top, #33ccff 0%, #99ffcc 100%) */
