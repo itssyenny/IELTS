@@ -1,23 +1,104 @@
-.marketing .column-css{
-	text-align: center;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans);
 
-}
-.marketing h3{
-	font-weight: 100;
-}
-.marketing .column-css p{
-	margin-left: .75rem;
-	margin-right: .75rem
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
 }
 
 
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; 
+}
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
-<div class="progress">
-	<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"> 20% </div>
-	<div class="panel panel-danger">
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
-    	<div class="panel-heading">Your Current Status</div>
-    	<div class="panel-body">You need to work much harder, dude! Do not give up easily.</div>
-	</div>
-</div>
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* SMALL portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width: 768px) {
+  .name {
+    font-size: 1.5em; }
+  .resume-column {
+    text-align: left; } }
+
+@media screen and (max-width: 680px) {
+  ul.menu li {
+    display: none; }
+  ul.menu li.hamburger {
+    float: right;
+    display: inline-block; }
+  ul.menu.responsive {
+    position: relative; }
+  ul.menu.responsive li.hamburger {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  ul.menu.responsive li {
+    float: none;
+    display: inline; }
+  ul.menu.responsive li a {
+    display: block;
+    text-align: right; } }
+
+/* MEDIUM tablet, landscape iPad, lo-res laptops ands desktops  */
+@media (min-width: 992px) {
+  .resume-column {
+    padding: 1%; }
+  #about {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .about-text {
+    padding-left: 0px; }
+  .syn {
+    padding-top: 2%;
+    background: url(../images/syenny.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .about-text {
+    text-align: left; }
+  .nav > ul > li > a {
+    font-size: 1.3em; } 
+}
+
+/* LARGE big landscape tablets, laptops, and desktops */
+@media (min-width: 1200px) {
+  .name {
+    font-size: 2em; }
+  .hero {
+    background-attachment: fixed; }
+  #about {
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } 
+}
