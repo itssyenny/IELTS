@@ -1,5 +1,6 @@
 # Website Demo
-![Website Demo](https://imgur.com/7u4KGVK "Website Demo")
+
+![Website Demo](https://i.imgur.com/7u4KGVK.gif)
 
 # jQuery Sakura
 
