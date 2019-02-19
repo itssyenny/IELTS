@@ -1,6 +1,6 @@
 # Website Demo
 
-![Website Demo](https://i.imgur.com/7u4KGVK.gif)
+![Website Demo](https://i.imgur.com/UzMdLUC.gif)
 
 # jQuery Sakura
 
@@ -9,7 +9,7 @@ I use a rain - sakura petals effects on IELTS website.
 Uses CSS3 animations and requestAnimationFrame to put a plethora of cherry blossom petals that drift and sway in the "wind" on your site.
 
 ![Sakura Animation](http://i.imgur.com/Ns7PWi3.gif "Sakura Animation")
-
+7u4KGVK.gif
 
 ```html
 <!-- In your HTML head -->
